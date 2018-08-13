@@ -1,0 +1,13 @@
+class test{
+        private static int recursiveSum(int n)
+        {
+                        if (n <= 1)
+                                return n;
+                        else 
+                                return (n + recursiveSum(n-1));
+        }
+
+        public staic void main(String ar[]){
+                System.out.println(recursiveSum(3));
+        }
+}
